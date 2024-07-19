@@ -63,7 +63,6 @@ export async function POST(request: Request){
         const emailResponse = await sendVerificationEmail(
             email, 
             username,
-            password,
             verifyCode,
         )
 
